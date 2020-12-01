@@ -15,13 +15,11 @@ class Testphoneloc(TestCase):
         assert info['province'] == '四川'
         assert info['city'] == '西昌'
         assert info['phone_type'] == '联通'
-        assert info['loc_id'] == '118338'
 
         info = self.pl.find('1860834')
         assert info['province'] == '四川'
         assert info['city'] == '凉山'
         assert info['phone_type'] == '联通'
-        assert info['loc_id'] == '118338'
 
         info = self.pl.find('2900004')
         assert info is None
