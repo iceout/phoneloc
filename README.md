@@ -39,7 +39,7 @@ phone type沿用源数据的定义：
 ```
 from phoneloc.phoneloc import PhoneLoc
 
-pl = PhoneLoc(locid_map='None')
+pl = PhoneLoc()
 info = pl.find('1921892') # info为{'phone': '1921892', 'province': '海南', 'city': '', 'zip_code': '572200', 'area_code': '0899', 'phone_type': '广电'}
 ```
 
