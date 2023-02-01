@@ -16,5 +16,6 @@ CARRIER2NO = {
     "电信虚拟运营商": 4,
     "联通虚拟运营商": 5,
     "移动虚拟运营商": 6,
+    "广电": 7,
 }
 NO2CARRIER = {CARRIER2NO[k]: k for k in CARRIER2NO}
